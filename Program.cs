@@ -1,5 +1,8 @@
 ﻿using DecoratorPatterns.BasicDecorator;
 using DecoratorPatterns.CompositePattern;
+using DecoratorPatterns.LoggingDecorators;
+using DecoratorPatterns.ProfilingDecorators;
+using System;
 
 namespace DecoratorPatterns
 {
@@ -21,6 +24,14 @@ namespace DecoratorPatterns
 
             component = composite;
             component.Something();
+
+            var calculator = new LoggingCalculator(new ConcreteCalculator());
+            calculator.Add(129 , 234);
+
+            var profilingComponent = new ProfilingComponent(new SlowComponent(), new LoggingStopwatch(new StopwatchAdapter()));
+            profilingComponent.Something();
+
+            Console.ReadLine();
         }
     }
 }

@@ -51,8 +51,17 @@
     <Compile Include="CompositePattern\Leaf.cs" />
     <Compile Include="CompositePattern\SecondTypeOfLeaf.cs" />
     <Compile Include="IPredicate.cs" />
+    <Compile Include="LazyDecorators\LazyComponent.cs" />
+    <Compile Include="LoggingDecorators\ConcreteCalculator.cs" />
+    <Compile Include="LoggingDecorators\ICalculator.cs" />
+    <Compile Include="LoggingDecorators\LoggingCalculator.cs" />
     <Compile Include="PredicatedDecorator\DateTester.cs" />
     <Compile Include="PredicatedDecorator\PredicatedDecoratorExample.cs" />
+    <Compile Include="ProfilingDecorators\StopwatchAdapter.cs" />
+    <Compile Include="ProfilingDecorators\IStopwatch.cs" />
+    <Compile Include="ProfilingDecorators\LoggingStopwatch.cs" />
+    <Compile Include="ProfilingDecorators\ProfilingComponent.cs" />
+    <Compile Include="ProfilingDecorators\SlowComponent.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
