@@ -42,6 +42,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BasicDecorator\ConcreteComponent.cs" />
+    <Compile Include="BasicDecorator\DecoratorComponent.cs" />
+    <Compile Include="BasicDecorator\IComponent.cs" />
+    <Compile Include="BranchedComponent.cs" />
+    <Compile Include="CompositePattern\AThirdLeafType.cs" />
+    <Compile Include="CompositePattern\CompositeComponent.cs" />
+    <Compile Include="CompositePattern\Leaf.cs" />
+    <Compile Include="CompositePattern\SecondTypeOfLeaf.cs" />
+    <Compile Include="IPredicate.cs" />
+    <Compile Include="PredicatedDecorator\DateTester.cs" />
+    <Compile Include="PredicatedDecorator\PredicatedDecoratorExample.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
