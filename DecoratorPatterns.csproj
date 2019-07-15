@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AsynchronousDecorators\AsyncComponent.cs" />
     <Compile Include="BasicDecorator\ConcreteComponent.cs" />
     <Compile Include="BasicDecorator\DecoratorComponent.cs" />
     <Compile Include="BasicDecorator\IComponent.cs" />
